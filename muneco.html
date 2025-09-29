@@ -1,0 +1,97 @@
+
+<html>  
+   <head> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>  
+     <title>Munieco de Nieve</title>  
+     <script type='text/javascript' 
+src='https://www.x3dom.org/download/x3dom.js'> </script>  
+     <link rel='stylesheet' type='text/css' 
+href='https://www.x3dom.org/download/x3dom.css'></link>  
+   </head>  
+   <body>  
+     <h1 style = "color: red;">Realidad Virtual</h1>  
+     <p style="color: blue" scale= '1.5 1.5 1.5'>  
+       Muñeco de Nieve 
+     </p>  
+  <x3d width='500px' height='500px'>  
+    <scene>  
+  <shape>  
+     <appearance>  
+    <material diffuseColor='1 1 1'></material>  
+     </appearance>  
+     <sphere></sphere>  
+  </shape>  
+  <transform translation='0 1.3 0' scale = '0.75 0.75 0.75'>  
+    <shape>  
+    <appearance>  
+      <material diffuseColor='1 1 1'></material>  
+    </appearance>  
+    <sphere></sphere>  
+    </shape>  
+  </transform>  
+<transform translation='0 -2 0' scale = '1.5 1.5 1.5'>  
+    <shape>  
+    <appearance>  
+      <material diffuseColor='1 1 1'></material>  
+    </appearance>  
+    <sphere></sphere>  
+    </shape>  
+  </transform>  
+  <transform translation='0 1.4 1' scale='0.2 0.5 0.2' rotation='1 0 0 1.5'>  
+    <shape>  
+    <appearance>  
+      <material diffuseColor='1 0.5 0'></material>  
+    </appearance>  
+    <cone></cone>  
+    </shape>  
+  </transform> 
+<!-- Sombrero de paja -->
+<transform translation="0 2 0">
+  <!-- Ala del sombrero -->
+  <shape>
+    <appearance>
+      <material diffuseColor="1 1 0.6"></material>
+    </appearance>
+    <cylinder radius="1.5" height="0.15"></cylinder>
+  </shape>
+</transform>
+
+<transform translation="0 2.33 0">
+  <!-- Copa del sombrero -->
+  <shape>
+    <appearance>
+      <material diffuseColor="1 1 0.6"></material>
+    </appearance>
+    <cylinder Radius="0.7" height="0.5"></cylinder>
+  </shape>
+</transform>
+
+<transform translation="0 2.13 0">
+  <!-- Cinta roja -->
+  <shape>
+    <appearance>
+      <material diffuseColor="1 0 0"></material> <!-- Rojo -->
+    </appearance>
+    <cylinder radius="0.85" height="0.1"></cylinder>
+  </shape>
+</transform>
+<transform translation='0.6 1.5 0.3' scale = '0.1 0.1 0.1'>  
+    <shape>  
+    <appearance>  
+      <material diffuseColor='0 0 0'></material>  
+    </appearance>  
+    <sphere></sphere>  
+    </shape>  
+  </transform>  
+<transform translation='-0.6 1.5 0.3' scale = '0.1 0.1 0.1'>  
+    <shape>  
+    <appearance>  
+      <material diffuseColor='0 0 0'></material>  
+    </appearance>  
+    <sphere></sphere>  
+    </shape>  
+  </transform>  
+    </scene>  
+ </x3d>  
+   </body>  
+</html> 
